@@ -58,7 +58,13 @@ export function buildPrompt(p: InterpretPayload): string {
 export async function callAi(prompt: string): Promise<string> {
   const base = process.env.AI_BASE_URL;
   const key = process.env.AI_API_KEY;
-  const model = process.env.AI_MODEL ?? "moonshot-v1-8k";
+  const model = process.env.AI_MODEL ?? "moonshot-v1-128k";
+  // 输出上限可配置:小上下文/小输出端点(如 max_tokens 仅 2048 的模型)可调低 AI_MAX_TOKENS
+  const maxTokensRaw = Number(process.env.AI_MAX_TOKENS ?? 8192);
+  const maxTokens = Number.isFinite(maxTokensRaw) && maxTokensRaw > 0 ? Math.floor(maxTokensRaw) : 8192;
+  // 温度可选:默认不传(OpenAI 兼容端点默认 1;某些推理模型只接受 1)。需要时设 AI_TEMPERATURE=0.8
+  const tempRaw = Number(process.env.AI_TEMPERATURE ?? "");
+  const temp = Number.isFinite(tempRaw) && tempRaw >= 0 && tempRaw <= 2 ? tempRaw : undefined;
   if (!base || !key) throw new Error("AI 未配置");
 
   let lastErr: unknown = new Error("AI 调用失败");
@@ -67,10 +73,16 @@ export async function callAi(prompt: string): Promise<string> {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 240_000);
     try {
+      const body: Record<string, unknown> = {
+        model,
+        messages: [{ role: "user", content: prompt }],
+        max_tokens: maxTokens
+      };
+      if (temp !== undefined) body.temperature = temp;
       const res = await fetch(`${base}/chat/completions`, {
         method: "POST",
         headers: { "content-type": "application/json", authorization: `Bearer ${key}` },
-        body: JSON.stringify({ model, messages: [{ role: "user", content: prompt }], max_tokens: 8192 }),
+        body: JSON.stringify(body),
         signal: ctrl.signal
       });
       if (res.ok) {

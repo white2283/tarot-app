@@ -36,6 +36,20 @@ npm run dev
 
 不带 `AI_API_KEY` 也能跑:塔罗用内置规则解读、本命盘用模板解读;填入 [Moonshot](https://platform.moonshot.cn) 的 key 即开启 AI 深度解读(`AI_MODEL` 支持 moonshot-v1-128k 等)。
 
+### 🤖 接入任意 OpenAI 兼容模型(不限于 Moonshot)
+
+AI 调用走标准的 `POST {AI_BASE_URL}/chat/completions`,改 `.env` 三个变量即可换任意 OpenAI 兼容服务:
+
+```env
+AI_BASE_URL=https://api.deepseek.com/v1    # 或 OpenAI / 智谱 / 本地 vLLM / Ollama 网关等
+AI_API_KEY=sk-你的key
+AI_MODEL=deepseek-chat                     # 对应服务里的模型名
+AI_MAX_TOKENS=8192                          # 单次输出上限;小上下文模型可调低
+AI_TEMPERATURE=                             # 留空=不传(默认1);想更稳定可设 0.8
+```
+
+常用示例:Moonshot `https://api.moonshot.cn/v1`、DeepSeek `https://api.deepseek.com/v1`、OpenAI `https://api.openai.com/v1`、本地 vLLM/Ollama 的 OpenAI 网关地址。
+
 ## ✅ 测试与构建
 
 ```bash

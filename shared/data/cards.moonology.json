@@ -1,0 +1,1727 @@
+{
+  "id": "moonology",
+  "name": "月相神谕卡",
+  "type": "oracle",
+  "cards": [
+    {
+      "id": "moon-01",
+      "name": "新月",
+      "nameEn": "New Moon",
+      "arcana": "oracle",
+      "number": 1,
+      "suit": null,
+      "keywords": [
+        "新开始",
+        "肯定",
+        "幸运",
+        "许愿"
+      ],
+      "upright": "宇宙正对你说“是”。一个全新的开始正在酝酿,你问的事正朝着有利方向发展。若觉得停滞,这是新循环的起点:清空过去,许下愿望,然后相信并见证它发生。",
+      "reversed": null,
+      "domains": {
+        "general": "宇宙正对你说“是”。一个全新的开始正在酝酿,你问的事正朝着有利方向发展。若觉得停滞,这是新循环的起点:清空过去,许下愿望,然后相信并见证它发生。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 28
+        },
+        {
+          "type": "sparkle",
+          "x": 30,
+          "y": 45
+        },
+        {
+          "type": "star",
+          "x": 70,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-02",
+      "name": "眉月",
+      "nameEn": "Waxing Crescent Moon",
+      "arcana": "oracle",
+      "number": 2,
+      "suit": null,
+      "keywords": [
+        "坚持",
+        "信念",
+        "希望",
+        "耐心"
+      ],
+      "upright": "别放弃,事情还在成形,远没到结局。眼下的波折只是过程。继续朝想要的方向努力,哪怕只能迈小步;保持信念,结果有充分理由乐观。",
+      "reversed": null,
+      "domains": {
+        "general": "别放弃,事情还在成形,远没到结局。眼下的波折只是过程。继续朝想要的方向努力,哪怕只能迈小步;保持信念,结果有充分理由乐观。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 28
+        },
+        {
+          "type": "star",
+          "x": 68,
+          "y": 44
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-03",
+      "name": "上弦月",
+      "nameEn": "First Quarter Moon",
+      "arcana": "oracle",
+      "number": 3,
+      "suit": null,
+      "keywords": [
+        "承诺",
+        "挑战",
+        "自信",
+        "半途"
+      ],
+      "upright": "挑战是宇宙给你的期中考试。你已走完一半路程,此刻需要的是承诺与自信:相信自己能做到,就大概率能做到。重新确认你有多想要它,然后继续前行。",
+      "reversed": null,
+      "domains": {
+        "general": "挑战是宇宙给你的期中考试。你已走完一半路程,此刻需要的是承诺与自信:相信自己能做到,就大概率能做到。重新确认你有多想要它,然后继续前行。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "mountain",
+          "x": 50,
+          "y": 66
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-04",
+      "name": "盈凸月",
+      "nameEn": "Gibbous Moon",
+      "arcana": "oracle",
+      "number": 4,
+      "suit": null,
+      "keywords": [
+        "调整",
+        "紧绷",
+        "渐近",
+        "谨慎"
+      ],
+      "upright": "事情正在膨胀,接近高峰,你走在对的路上。但细节仍需微调,局势也有些紧绷——别用力猛推,小心处理,一点火星都可能引爆全局。",
+      "reversed": null,
+      "domains": {
+        "general": "事情正在膨胀,接近高峰,你走在对的路上。但细节仍需微调,局势也有些紧绷——别用力猛推,小心处理,一点火星都可能引爆全局。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "cloud",
+          "x": 35,
+          "y": 50
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-05",
+      "name": "满月",
+      "nameEn": "Full Moon",
+      "arcana": "oracle",
+      "number": 5,
+      "suit": null,
+      "keywords": [
+        "高潮",
+        "答案",
+        "情绪",
+        "释放"
+      ],
+      "upright": "事情正走向高潮与结论,答案即将揭晓,胜算在你这边。情绪会格外汹涌,留意它们在告诉你什么;深呼吸,保持冷静,必要时原谅某人,放下过去。",
+      "reversed": null,
+      "domains": {
+        "general": "事情正走向高潮与结论,答案即将揭晓,胜算在你这边。情绪会格外汹涌,留意它们在告诉你什么;深呼吸,保持冷静,必要时原谅某人,放下过去。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "waves",
+          "x": 50,
+          "y": 70
+        },
+        {
+          "type": "sparkle",
+          "x": 72,
+          "y": 40
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-06",
+      "name": "亏凸月",
+      "nameEn": "Disseminating Moon",
+      "arcana": "oracle",
+      "number": 6,
+      "suit": null,
+      "keywords": [
+        "复盘",
+        "分享",
+        "休息",
+        "接纳"
+      ],
+      "upright": "顶峰已过,强度正在退去。现在适合停下来复盘,从经历里汲取智慧,并与他人分享。接受现状,给自己和别人喘息的空间,不必永远冲锋。",
+      "reversed": null,
+      "domains": {
+        "general": "顶峰已过,强度正在退去。现在适合停下来复盘,从经历里汲取智慧,并与他人分享。接受现状,给自己和别人喘息的空间,不必永远冲锋。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "waves",
+          "x": 45,
+          "y": 68
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-07",
+      "name": "下弦月",
+      "nameEn": "Third Quarter Moon",
+      "arcana": "oracle",
+      "number": 7,
+      "suit": null,
+      "keywords": [
+        "放下",
+        "调整",
+        "排毒",
+        "重新评估"
+      ],
+      "upright": "过去几周装满了美好也装满了毒素,诚实检视哪些情绪该倒掉。放下并不代表失去,必要的调整之后,你会更轻快地走向想去的地方。",
+      "reversed": null,
+      "domains": {
+        "general": "过去几周装满了美好也装满了毒素,诚实检视哪些情绪该倒掉。放下并不代表失去,必要的调整之后,你会更轻快地走向想去的地方。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "cloud",
+          "x": 62,
+          "y": 48
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-08",
+      "name": "残月",
+      "nameEn": "Balsamic Moon",
+      "arcana": "oracle",
+      "number": 8,
+      "suit": null,
+      "keywords": [
+        "疗愈",
+        "臣服",
+        "等待",
+        "抚慰"
+      ],
+      "upright": "过去已成过去,光明的未来在召唤,但先疗愈。别粉饰裂痕,给自己和需要的人一些抚慰与时间。臣服、等待,然后带着信念为下一个新月做好准备。",
+      "reversed": null,
+      "domains": {
+        "general": "过去已成过去,光明的未来在召唤,但先疗愈。别粉饰裂痕,给自己和需要的人一些抚慰与时间。臣服、等待,然后带着信念为下一个新月做好准备。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "veil",
+          "x": 50,
+          "y": 58
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-09",
+      "name": "白羊座新月",
+      "nameEn": "New Moon in Aries",
+      "arcana": "oracle",
+      "number": 9,
+      "suit": null,
+      "keywords": [
+        "行动",
+        "勇气",
+        "点火",
+        "冲刺"
+      ],
+      "upright": "火焰已经点燃,一个充满冲劲的新开始来了。宇宙在说:大胆去追。决心、自信与勇气会带你抵达,但别跑得太快而失了对人的善意。",
+      "reversed": null,
+      "domains": {
+        "general": "火焰已经点燃,一个充满冲劲的新开始来了。宇宙在说:大胆去追。决心、自信与勇气会带你抵达,但别跑得太快而失了对人的善意。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "sparkle",
+          "x": 34,
+          "y": 44
+        },
+        {
+          "type": "lightning",
+          "x": 68,
+          "y": 52
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-10",
+      "name": "金牛座新月",
+      "nameEn": "New Moon in Taurus",
+      "arcana": "oracle",
+      "number": 10,
+      "suit": null,
+      "keywords": [
+        "丰盛",
+        "价值",
+        "财务",
+        "自信"
+      ],
+      "upright": "关于金钱与自我价值的肯定答复:你值得拥有想要的丰盛,先学会重视自己。适合制定长期的财务计划;感情与感官的新篇章也可能由此开启。",
+      "reversed": null,
+      "domains": {
+        "general": "关于金钱与自我价值的肯定答复:你值得拥有想要的丰盛,先学会重视自己。适合制定长期的财务计划;感情与感官的新篇章也可能由此开启。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "pentacle",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "type": "vine",
+          "x": 28,
+          "y": 48
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-11",
+      "name": "双子座新月",
+      "nameEn": "New Moon in Gemini",
+      "arcana": "oracle",
+      "number": 11,
+      "suit": null,
+      "keywords": [
+        "沟通",
+        "表达",
+        "倾听",
+        "澄清"
+      ],
+      "upright": "答案在沟通里。把话说开,无论是当面、写信还是发消息,清晰的表达能扫清障碍。若涉及手足或邻里,这是冰释前嫌、重新开始的信号。",
+      "reversed": null,
+      "domains": {
+        "general": "答案在沟通里。把话说开,无论是当面、写信还是发消息,清晰的表达能扫清障碍。若涉及手足或邻里,这是冰释前嫌、重新开始的信号。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "scroll",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "type": "butterfly",
+          "x": 70,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-12",
+      "name": "巨蟹座新月",
+      "nameEn": "New Moon in Cancer",
+      "arcana": "oracle",
+      "number": 12,
+      "suit": null,
+      "keywords": [
+        "家庭",
+        "滋养",
+        "安全感",
+        "归属"
+      ],
+      "upright": "私生活迎来新开始,与家、家人或居所有关。若你忽视了家人,该重新连接;若忽视了自己,该好好滋养身心。把家放在第一位,安全感会随之而来。",
+      "reversed": null,
+      "domains": {
+        "general": "私生活迎来新开始,与家、家人或居所有关。若你忽视了家人,该重新连接;若忽视了自己,该好好滋养身心。把家放在第一位,安全感会随之而来。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "heart",
+          "x": 50,
+          "y": 56
+        },
+        {
+          "type": "chalice",
+          "x": 30,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-13",
+      "name": "狮子座新月",
+      "nameEn": "New Moon in Leo",
+      "arcana": "oracle",
+      "number": 13,
+      "suit": null,
+      "keywords": [
+        "闪耀",
+        "自信",
+        "创造",
+        "玩乐"
+      ],
+      "upright": "轮到你了,走向聚光灯。为自己的独特而骄傲,大方展示所能提供的一切。创意项目与孩子相关的事都有好兆头,别忘了安排真正的玩乐时光。",
+      "reversed": null,
+      "domains": {
+        "general": "轮到你了,走向聚光灯。为自己的独特而骄傲,大方展示所能提供的一切。创意项目与孩子相关的事都有好兆头,别忘了安排真正的玩乐时光。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "lion",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "type": "crown",
+          "x": 50,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-14",
+      "name": "处女座新月",
+      "nameEn": "New Moon in Virgo",
+      "arcana": "oracle",
+      "number": 14,
+      "suit": null,
+      "keywords": [
+        "秩序",
+        "健康",
+        "细节",
+        "服务"
+      ],
+      "upright": "重启的时刻,用聪明有序的方式。关注健康,调整作息与饮食;留意细节但别吹毛求疵。把目光从'别人能给你什么'移向'你能为别人做什么'。",
+      "reversed": null,
+      "domains": {
+        "general": "重启的时刻,用聪明有序的方式。关注健康,调整作息与饮食;留意细节但别吹毛求疵。把目光从'别人能给你什么'移向'你能为别人做什么'。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "tree",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "type": "hand",
+          "x": 32,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-15",
+      "name": "天秤座新月",
+      "nameEn": "New Moon in Libra",
+      "arcana": "oracle",
+      "number": 15,
+      "suit": null,
+      "keywords": [
+        "平衡",
+        "合作",
+        "妥协",
+        "关系"
+      ],
+      "upright": "关系翻开新的一页,健康而平衡的合作正在靠近。付出与索取是解题钥匙,谈判与妥协都不可耻。成双成对地行动,别只顾自己。",
+      "reversed": null,
+      "domains": {
+        "general": "关系翻开新的一页,健康而平衡的合作正在靠近。付出与索取是解题钥匙,谈判与妥协都不可耻。成双成对地行动,别只顾自己。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "pillar",
+          "x": 36,
+          "y": 58
+        },
+        {
+          "type": "pillar",
+          "x": 64,
+          "y": 58
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-16",
+      "name": "天蝎座新月",
+      "nameEn": "New Moon in Scorpio",
+      "arcana": "oracle",
+      "number": 16,
+      "suit": null,
+      "keywords": [
+        "重生",
+        "转变",
+        "深度",
+        "魔力"
+      ],
+      "upright": "凤凰正在灰烬中起身,深刻而彻底的转变开始了。直面阴影而非绕行,放下怨恨与嫉妒。若你懂得自己的魔力,现在正是施展的时候。",
+      "reversed": null,
+      "domains": {
+        "general": "凤凰正在灰烬中起身,深刻而彻底的转变开始了。直面阴影而非绕行,放下怨恨与嫉妒。若你懂得自己的魔力,现在正是施展的时候。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "snake",
+          "x": 48,
+          "y": 60
+        },
+        {
+          "type": "veil",
+          "x": 68,
+          "y": 44
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-17",
+      "name": "射手座新月",
+      "nameEn": "New Moon in Sagittarius",
+      "arcana": "oracle",
+      "number": 17,
+      "suit": null,
+      "keywords": [
+        "冒险",
+        "乐观",
+        "探索",
+        "哲学"
+      ],
+      "upright": "低落期结束,乐趣与冒险重新上路。去探索、去交换宏大的想法,甚至冒一点小险,但别押上全部身家。换个角度看重要的事,世界会变大。",
+      "reversed": null,
+      "domains": {
+        "general": "低落期结束,乐趣与冒险重新上路。去探索、去交换宏大的想法,甚至冒一点小险,但别押上全部身家。换个角度看重要的事,世界会变大。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "eagle",
+          "x": 56,
+          "y": 52
+        },
+        {
+          "type": "boat",
+          "x": 36,
+          "y": 66
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-18",
+      "name": "摩羯座新月",
+      "nameEn": "New Moon in Capricorn",
+      "arcana": "oracle",
+      "number": 18,
+      "suit": null,
+      "keywords": [
+        "事业",
+        "规划",
+        "雄心",
+        "自律"
+      ],
+      "upright": "事业迎来新周期,是时候认真规划。想想一年、五年后你想站在哪里,据此制定策略并执行。雄心值得肯定,自律让梦想落地。",
+      "reversed": null,
+      "domains": {
+        "general": "事业迎来新周期,是时候认真规划。想想一年、五年后你想站在哪里,据此制定策略并执行。雄心值得肯定,自律让梦想落地。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "mountain",
+          "x": 50,
+          "y": 62
+        },
+        {
+          "type": "tower",
+          "x": 70,
+          "y": 44
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-19",
+      "name": "水瓶座新月",
+      "nameEn": "New Moon in Aquarius",
+      "arcana": "oracle",
+      "number": 19,
+      "suit": null,
+      "keywords": [
+        "变革",
+        "独立",
+        "前进",
+        "创新"
+      ],
+      "upright": "别回头,改变正在路上,而且可能来得很快。有些路要自己走,保持独立,但心怀温度。放下过去,快步走向未来,人脉有时比知识更关键。",
+      "reversed": null,
+      "domains": {
+        "general": "别回头,改变正在路上,而且可能来得很快。有些路要自己走,保持独立,但心怀温度。放下过去,快步走向未来,人脉有时比知识更关键。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "star",
+          "x": 36,
+          "y": 44
+        },
+        {
+          "type": "lightning",
+          "x": 66,
+          "y": 54
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-20",
+      "name": "双鱼座新月",
+      "nameEn": "New Moon in Pisces",
+      "arcana": "oracle",
+      "number": 20,
+      "suit": null,
+      "keywords": [
+        "梦想",
+        "浪漫",
+        "直觉",
+        "许愿"
+      ],
+      "upright": "梦想、浪漫与灵魂深处的渴望被点亮。这是让梦想成真的召集令:凭感觉而非逻辑前行,认真许下愿望,你灵魂的话语会帮你实现它。",
+      "reversed": null,
+      "domains": {
+        "general": "梦想、浪漫与灵魂深处的渴望被点亮。这是让梦想成真的召集令:凭感觉而非逻辑前行,认真许下愿望,你灵魂的话语会帮你实现它。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "waves",
+          "x": 50,
+          "y": 66
+        },
+        {
+          "type": "star",
+          "x": 70,
+          "y": 40
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-21",
+      "name": "白羊座满月",
+      "nameEn": "Full Moon in Aries",
+      "arcana": "oracle",
+      "number": 21,
+      "suit": null,
+      "keywords": [
+        "激烈",
+        "自省",
+        "高峰",
+        "克制"
+      ],
+      "upright": "局面即将冲到高点,而且可能火药味十足。检查自己是否太以自我为中心,鲁莽或苛刻只会火上浇油。微笑、礼貌、友善,反而能带你到想去的地方。",
+      "reversed": null,
+      "domains": {
+        "general": "局面即将冲到高点,而且可能火药味十足。检查自己是否太以自我为中心,鲁莽或苛刻只会火上浇油。微笑、礼貌、友善,反而能带你到想去的地方。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "lightning",
+          "x": 66,
+          "y": 48
+        },
+        {
+          "type": "sun",
+          "x": 34,
+          "y": 44
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-22",
+      "name": "金牛座满月",
+      "nameEn": "Full Moon in Taurus",
+      "arcana": "oracle",
+      "number": 22,
+      "suit": null,
+      "keywords": [
+        "务实",
+        "吸引",
+        "财富",
+        "落地"
+      ],
+      "upright": "既要点魔法也要脚踏实地:一边用想象与期待吸引想要的,一边列出实现它的具体步骤。财务上的转变,取决于你过去的行动与此刻的心态。",
+      "reversed": null,
+      "domains": {
+        "general": "既要点魔法也要脚踏实地:一边用想象与期待吸引想要的,一边列出实现它的具体步骤。财务上的转变,取决于你过去的行动与此刻的心态。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "pentacle",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "type": "vine",
+          "x": 30,
+          "y": 48
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-23",
+      "name": "双子座满月",
+      "nameEn": "Full Moon in Gemini",
+      "arcana": "oracle",
+      "number": 23,
+      "suit": null,
+      "keywords": [
+        "言语",
+        "对话",
+        "谨慎",
+        "真相"
+      ],
+      "upright": "真话要说,但言语有重量,轻率会付出代价。你离答案只差几轮坦诚的对话。重要谈话将至,保持冷静,记住:说得最少的人,修补得最快。",
+      "reversed": null,
+      "domains": {
+        "general": "真话要说,但言语有重量,轻率会付出代价。你离答案只差几轮坦诚的对话。重要谈话将至,保持冷静,记住:说得最少的人,修补得最快。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "scroll",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "type": "cloud",
+          "x": 70,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-24",
+      "name": "巨蟹座满月",
+      "nameEn": "Full Moon in Cancer",
+      "arcana": "oracle",
+      "number": 24,
+      "suit": null,
+      "keywords": [
+        "敏感",
+        "家庭",
+        "收束",
+        "关怀"
+      ],
+      "upright": "情绪可能满溢,对自己和他人都温柔些。家庭或私人事务将迎来高潮与收束,无需担忧——这标志着一段挑战的结束。以善意引领,而非情绪。",
+      "reversed": null,
+      "domains": {
+        "general": "情绪可能满溢,对自己和他人都温柔些。家庭或私人事务将迎来高潮与收束,无需担忧——这标志着一段挑战的结束。以善意引领,而非情绪。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "waves",
+          "x": 50,
+          "y": 66
+        },
+        {
+          "type": "heart",
+          "x": 34,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-25",
+      "name": "狮子座满月",
+      "nameEn": "Full Moon in Leo",
+      "arcana": "oracle",
+      "number": 25,
+      "suit": null,
+      "keywords": [
+        "真心",
+        "自尊",
+        "平衡",
+        "和解"
+      ],
+      "upright": "检查一下:是真心在发问,还是自尊在挡路?僵局需要更多爱与体谅来化解。在自己的需要与他人的需要之间找回平衡,华丽可以,过火不行。",
+      "reversed": null,
+      "domains": {
+        "general": "检查一下:是真心在发问,还是自尊在挡路?僵局需要更多爱与体谅来化解。在自己的需要与他人的需要之间找回平衡,华丽可以,过火不行。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "lion",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "type": "heart",
+          "x": 70,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-26",
+      "name": "处女座满月",
+      "nameEn": "Full Moon in Virgo",
+      "arcana": "oracle",
+      "number": 26,
+      "suit": null,
+      "keywords": [
+        "诚实",
+        "谦逊",
+        "挑剔",
+        "清晰"
+      ],
+      "upright": "诚实地回答:你是谦逊,还是已经低估了自己?又或者,是不是挑剔过了头?真实的答案会让下一步清晰可见。留意细节,踏实努力,结果会兑现。",
+      "reversed": null,
+      "domains": {
+        "general": "诚实地回答:你是谦逊,还是已经低估了自己?又或者,是不是挑剔过了头?真实的答案会让下一步清晰可见。留意细节,踏实努力,结果会兑现。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "tree",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "type": "star",
+          "x": 70,
+          "y": 40
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-27",
+      "name": "天秤座满月",
+      "nameEn": "Full Moon in Libra",
+      "arcana": "oracle",
+      "number": 27,
+      "suit": null,
+      "keywords": [
+        "关系",
+        "转折",
+        "双赢",
+        "取舍"
+      ],
+      "upright": "一段重要关系正走向转折:升级、改变,或者体面地落幕。若它此刻结束,便是在对的时间结束。寻求双赢,在自我与他人之间保持平衡。",
+      "reversed": null,
+      "domains": {
+        "general": "一段重要关系正走向转折:升级、改变,或者体面地落幕。若它此刻结束,便是在对的时间结束。寻求双赢,在自我与他人之间保持平衡。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "pillar",
+          "x": 36,
+          "y": 58
+        },
+        {
+          "type": "heart",
+          "x": 62,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-28",
+      "name": "天蝎座满月",
+      "nameEn": "Full Moon in Scorpio",
+      "arcana": "oracle",
+      "number": 28,
+      "suit": null,
+      "keywords": [
+        "释放",
+        "激烈",
+        "净化",
+        "直面"
+      ],
+      "upright": "停止偏执与内耗,把有毒的情绪连根拔起。若有人待你不好,放手也是一种答案。充分感受你的感受,然后让坏情绪出去,让新生进来。",
+      "reversed": null,
+      "domains": {
+        "general": "停止偏执与内耗,把有毒的情绪连根拔起。若有人待你不好,放手也是一种答案。充分感受你的感受,然后让坏情绪出去,让新生进来。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "snake",
+          "x": 48,
+          "y": 60
+        },
+        {
+          "type": "waves",
+          "x": 50,
+          "y": 74
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-29",
+      "name": "射手座满月",
+      "nameEn": "Full Moon in Sagittarius",
+      "arcana": "oracle",
+      "number": 29,
+      "suit": null,
+      "keywords": [
+        "大局",
+        "感恩",
+        "开放",
+        "冒险"
+      ],
+      "upright": "后退一步,看大局。别困在琐事里,也别只说不动。数一数已拥有的祝福,对“什么是最好的结果”保持开放——宇宙准备的惊喜,可能超出你的剧本。",
+      "reversed": null,
+      "domains": {
+        "general": "后退一步,看大局。别困在琐事里,也别只说不动。数一数已拥有的祝福,对“什么是最好的结果”保持开放——宇宙准备的惊喜,可能超出你的剧本。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "star",
+          "x": 38,
+          "y": 42
+        },
+        {
+          "type": "boat",
+          "x": 58,
+          "y": 66
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-30",
+      "name": "摩羯座满月",
+      "nameEn": "Full Moon in Capricorn",
+      "arcana": "oracle",
+      "number": 30,
+      "suit": null,
+      "keywords": [
+        "努力",
+        "事业",
+        "收官",
+        "平衡"
+      ],
+      "upright": "你愿意为目标付出多少努力?工作上的僵局即将松动,艰难时期接近尾声。扪心自问野心几何,然后全力以赴;同时别让工作吞掉生活。",
+      "reversed": null,
+      "domains": {
+        "general": "你愿意为目标付出多少努力?工作上的僵局即将松动,艰难时期接近尾声。扪心自问野心几何,然后全力以赴;同时别让工作吞掉生活。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "mountain",
+          "x": 50,
+          "y": 62
+        },
+        {
+          "type": "pillar",
+          "x": 70,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-31",
+      "name": "水瓶座满月",
+      "nameEn": "Full Moon in Aquarius",
+      "arcana": "oracle",
+      "number": 31,
+      "suit": null,
+      "keywords": [
+        "抽离",
+        "独特",
+        "放手",
+        "前进"
+      ],
+      "upright": "从你紧盯的局面里抽离一点。有人保持距离未必是坏事,改变虽吓人却是必经之路。正是你的与众不同让你发光——做真实的自己,然后继续前行。",
+      "reversed": null,
+      "domains": {
+        "general": "从你紧盯的局面里抽离一点。有人保持距离未必是坏事,改变虽吓人却是必经之路。正是你的与众不同让你发光——做真实的自己,然后继续前行。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "star",
+          "x": 38,
+          "y": 42
+        },
+        {
+          "type": "cloud",
+          "x": 62,
+          "y": 52
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-32",
+      "name": "双鱼座满月",
+      "nameEn": "Full Moon in Pisces",
+      "arcana": "oracle",
+      "number": 32,
+      "suit": null,
+      "keywords": [
+        "落地",
+        "冥想",
+        "平衡",
+        "清醒"
+      ],
+      "upright": "是不是太逃避现实了?收回心神,把梦想拆成可执行的小步骤,在责任与向往之间找到平衡。冥想会让答案浮出水面,别再扮演殉道者。",
+      "reversed": null,
+      "domains": {
+        "general": "是不是太逃避现实了?收回心神,把梦想拆成可执行的小步骤,在责任与向往之间找到平衡。冥想会让答案浮出水面,别再扮演殉道者。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "waves",
+          "x": 50,
+          "y": 66
+        },
+        {
+          "type": "lantern",
+          "x": 34,
+          "y": 46
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-33",
+      "name": "新月日食",
+      "nameEn": "New Moon Eclipse",
+      "arcana": "oracle",
+      "number": 33,
+      "suit": null,
+      "keywords": [
+        "门户",
+        "跨越",
+        "勇气",
+        "蜕变"
+      ],
+      "upright": "强大的新门户正在打开,你能实现梦想——但这是一段长旅程的开头,眼下的事件可能刺耳难耐。鼓起勇气跨过门槛,日后你会感激此刻发生的一切。",
+      "reversed": null,
+      "domains": {
+        "general": "强大的新门户正在打开,你能实现梦想——但这是一段长旅程的开头,眼下的事件可能刺耳难耐。鼓起勇气跨过门槛,日后你会感激此刻发生的一切。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 44,
+          "y": 26
+        },
+        {
+          "type": "sun",
+          "x": 58,
+          "y": 26
+        },
+        {
+          "type": "sparkle",
+          "x": 50,
+          "y": 52
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-34",
+      "name": "满月月食",
+      "nameEn": "Full Moon Eclipse",
+      "arcana": "oracle",
+      "number": 34,
+      "suit": null,
+      "keywords": [
+        "终结",
+        "失控",
+        "宽恕",
+        "放手"
+      ],
+      "upright": "一扇门砰然关上,事情已至顶点,不再受控。这是灵魂安排的成长课:让该走的走,让该发生的发生。原谅是钥匙,放下的瞬间,你就自由了。",
+      "reversed": null,
+      "domains": {
+        "general": "一扇门砰然关上,事情已至顶点,不再受控。这是灵魂安排的成长课:让该走的走,让该发生的发生。原谅是钥匙,放下的瞬间,你就自由了。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "cloud",
+          "x": 50,
+          "y": 46
+        },
+        {
+          "type": "veil",
+          "x": 50,
+          "y": 64
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-35",
+      "name": "盈月",
+      "nameEn": "Waxing Moon",
+      "arcana": "oracle",
+      "number": 35,
+      "suit": null,
+      "keywords": [
+        "上升",
+        "希望",
+        "聚焦",
+        "行动"
+      ],
+      "upright": "希望常在,能量正在上升。你可以创造梦想中的现实,只是还需要一些功夫。继续冥想聚焦,或勇敢迈出更实际的一步——无论选哪条,方向都是对的。",
+      "reversed": null,
+      "domains": {
+        "general": "希望常在,能量正在上升。你可以创造梦想中的现实,只是还需要一些功夫。继续冥想聚焦,或勇敢迈出更实际的一步——无论选哪条,方向都是对的。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "star",
+          "x": 68,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-36",
+      "name": "亏月",
+      "nameEn": "Waning Moon",
+      "arcana": "oracle",
+      "number": 36,
+      "suit": null,
+      "keywords": [
+        "松手",
+        "休息",
+        "放下",
+        "收尾"
+      ],
+      "upright": "月色渐暗,有些事正在退场。周期已进入秋冬,是时候松手、休息,别再苦苦强撑。释放该释放的情绪包袱,向该道歉的人道歉,为新生腾出空间。",
+      "reversed": null,
+      "domains": {
+        "general": "月色渐暗,有些事正在退场。周期已进入秋冬,是时候松手、休息,别再苦苦强撑。释放该释放的情绪包袱,向该道歉的人道歉,为新生腾出空间。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "cloud",
+          "x": 58,
+          "y": 48
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-37",
+      "name": "空亡月",
+      "nameEn": "Void-of-Course Moon",
+      "arcana": "oracle",
+      "number": 37,
+      "suit": null,
+      "keywords": [
+        "空亡",
+        "暂停",
+        "调整预期",
+        "转机"
+      ],
+      "upright": "这件事可能不会有结果——若你正担心什么,这是“无需担心”的好消息;若你在筹划新开始,请调整预期或改变做法。牌只显示你正在创造的,而你可以改变它。",
+      "reversed": null,
+      "domains": {
+        "general": "这件事可能不会有结果——若你正担心什么,这是“无需担心”的好消息;若你在筹划新开始,请调整预期或改变做法。牌只显示你正在创造的,而你可以改变它。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "veil",
+          "x": 42,
+          "y": 52
+        },
+        {
+          "type": "cloud",
+          "x": 62,
+          "y": 58
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-38",
+      "name": "唵·那摩·那拉亚尼",
+      "nameEn": "Om Namo Narayani",
+      "arcana": "oracle",
+      "number": 38,
+      "suit": null,
+      "keywords": [
+        "臣服",
+        "祈祷",
+        "存在",
+        "平安"
+      ],
+      "upright": "向更高的力量臣服。此刻不需要掌控,只需要存在。把紧绷的交出去,把答案交给时间,在臣服中获得真正的平安与指引。",
+      "reversed": null,
+      "domains": {
+        "general": "向更高的力量臣服。此刻不需要掌控,只需要存在。把紧绷的交出去,把答案交给时间,在臣服中获得真正的平安与指引。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "angel",
+          "x": 50,
+          "y": 54
+        },
+        {
+          "type": "sparkle",
+          "x": 70,
+          "y": 40
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-39",
+      "name": "基本宫之月",
+      "nameEn": "Cardinal Moon",
+      "arcana": "oracle",
+      "number": 39,
+      "suit": null,
+      "keywords": [
+        "主动",
+        "领导",
+        "果断",
+        "掌控"
+      ],
+      "upright": "大胆一点,甚至强势一点,把主动权握回自己手里。别再被动等待,说出你想要的,发挥领导力把局面引向你要的方向。你负责你的命运。",
+      "reversed": null,
+      "domains": {
+        "general": "大胆一点,甚至强势一点,把主动权握回自己手里。别再被动等待,说出你想要的,发挥领导力把局面引向你要的方向。你负责你的命运。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "chariot",
+          "x": 50,
+          "y": 60
+        },
+        {
+          "type": "crown",
+          "x": 50,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-40",
+      "name": "固定宫之月",
+      "nameEn": "Fixed Moon",
+      "arcana": "oracle",
+      "number": 40,
+      "suit": null,
+      "keywords": [
+        "坚持",
+        "僵局",
+        "固执",
+        "松动"
+      ],
+      "upright": "两种可能:要么你需要立场坚定、持之以恒,要么事情卡住了。若是后者,检视自己的固执,做那个先松手、先让步的人,轮子才会重新转动。",
+      "reversed": null,
+      "domains": {
+        "general": "两种可能:要么你需要立场坚定、持之以恒,要么事情卡住了。若是后者,检视自己的固执,做那个先松手、先让步的人,轮子才会重新转动。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "pillar",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "type": "mountain",
+          "x": 50,
+          "y": 72
+        }
+      ],
+      "palette": {
+        "bg": "#141430",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-41",
+      "name": "变动宫之月",
+      "nameEn": "Mutable Moon",
+      "arcana": "oracle",
+      "number": 41,
+      "suit": null,
+      "keywords": [
+        "变化",
+        "未定",
+        "弹性",
+        "转机"
+      ],
+      "upright": "一切仍在变化之中,远未盖棺定论。不满意现状?太好了,你仍然可以改变结局。局势或许飘忽,再坚持一阵,最好的结果会为你展开。",
+      "reversed": null,
+      "domains": {
+        "general": "一切仍在变化之中,远未盖棺定论。不满意现状?太好了,你仍然可以改变结局。局势或许飘忽,再坚持一阵,最好的结果会为你展开。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "butterfly",
+          "x": 56,
+          "y": 48
+        },
+        {
+          "type": "river",
+          "x": 50,
+          "y": 68
+        }
+      ],
+      "palette": {
+        "bg": "#191936",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-42",
+      "name": "蓝月",
+      "nameEn": "Blue Moon",
+      "arcana": "oracle",
+      "number": 42,
+      "suit": null,
+      "keywords": [
+        "稀有",
+        "幸运",
+        "机会",
+        "唯一"
+      ],
+      "upright": "千载难逢的机会正在靠近,几乎是“只此一次”的幸运。别再说自己要得太多——相信它,你配得上它。错过未必再来,张开手接住这份稀有的馈赠。",
+      "reversed": null,
+      "domains": {
+        "general": "千载难逢的机会正在靠近,几乎是“只此一次”的幸运。别再说自己要得太多——相信它,你配得上它。错过未必再来,张开手接住这份稀有的馈赠。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 26
+        },
+        {
+          "type": "star",
+          "x": 34,
+          "y": 42
+        },
+        {
+          "type": "sparkle",
+          "x": 66,
+          "y": 44
+        }
+      ],
+      "palette": {
+        "bg": "#1b1b3f",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-43",
+      "name": "南交点",
+      "nameEn": "South Node",
+      "arcana": "oracle",
+      "number": 43,
+      "suit": null,
+      "keywords": [
+        "业力",
+        "旧模式",
+        "释放",
+        "过去"
+      ],
+      "upright": "旧模式与条件反射正在拖住你。某段关系或某种依附或许已令人窒息,甚至有毒。待在原地看似安全,但这张卡要求你改变:释放过去,才有未来。",
+      "reversed": null,
+      "domains": {
+        "general": "旧模式与条件反射正在拖住你。某段关系或某种依附或许已令人窒息,甚至有毒。待在原地看似安全,但这张卡要求你改变:释放过去,才有未来。"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "wheel",
+          "x": 50,
+          "y": 56
+        },
+        {
+          "type": "veil",
+          "x": 68,
+          "y": 42
+        }
+      ],
+      "palette": {
+        "bg": "#171734",
+        "fg": "#e0c06a"
+      }
+    },
+    {
+      "id": "moon-44",
+      "name": "北交点",
+      "nameEn": "North Node",
+      "arcana": "oracle",
+      "number": 44,
+      "suit": null,
+      "keywords": [
+        "方向",
+        "命运",
+        "勇气",
+        "前进"
+      ],
+      "upright": "把过去留在身后,你正朝着对的方向走。去做那件让你有点害怕的事,那是人生目的在召唤。等你终于鼓起勇气,会问自己:为什么等了这么久?",
+      "reversed": null,
+      "domains": {
+        "general": "把过去留在身后,你正朝着对的方向走。去做那件让你有点害怕的事,那是人生目的在召唤。等你终于鼓起勇气,会问自己:为什么等了这么久?"
+      },
+      "symbols": [
+        {
+          "type": "moon",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "type": "key",
+          "x": 52,
+          "y": 52
+        },
+        {
+          "type": "star",
+          "x": 36,
+          "y": 40
+        }
+      ],
+      "palette": {
+        "bg": "#1d1d42",
+        "fg": "#e0c06a"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>星轨塔罗 · 环境诊断</title>
+</head>
+<body style="background:#0b0616;color:#cbb26a;font:14px/1.8 serif;padding:24px">
+  <h3 style="color:#e9cf7a">星轨塔罗 · 环境诊断</h3>
+  <div id="r">检测中…</div>
+  <script type="module">window.__esm = "支持";</script>
+  <script>
+    setTimeout(function () {
+      var lines = [
+        "UA: " + navigator.userAgent,
+        "ES module: " + (window.__esm || "不支持(致命,页面无法加载)"),
+        "queueMicrotask: " + (typeof queueMicrotask === "function" ? "有" : "无(致命,framer-motion 会整包崩溃)"),
+        "Promise: " + (typeof Promise === "function" ? "有" : "无"),
+        "fetch: " + (typeof fetch === "function" ? "有" : "无"),
+        "localStorage: " + (function () {
+          try { localStorage.setItem("__t", "1"); localStorage.removeItem("__t"); return "可用"; }
+          catch (e) { return "不可用: " + e.message; }
+        })()
+      ];
+      document.getElementById("r").innerText = lines.join("\n");
+    }, 300);
+  </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Noto Serif SC", "SimSun", serif;
+  background: #0b0616;
+  color: #cbb26a;
+}
+
+/* 关键修复:禁止横向溢出。
+   主页的 480px 水印/氛围卡会超出手机宽度,移动浏览器会为此撑大布局视口,
+   导致 fixed 弹窗(如星盘)跟随视口变大而向"右下"漂移。clip 不产生滚动容器,不影响 sticky。
+   注意:压缩器会把"hidden;clip"合并成只剩 clip(老浏览器不认识 clip 会忽略)→
+   必须用 @supports 保留 hidden 回退。 */
+html {
+  overflow-x: hidden;
+}
+@supports (overflow-x: clip) {
+  html { overflow-x: clip; }
+}
+
+/* V1 星空闪烁 */
+@keyframes twinkle {
+  from { opacity: 0.15; }
+  to { opacity: 0.8; }
+}
+
+/* V2 首页曼陀罗水印缓转 */
+@keyframes spinSlow {
+  to { transform: rotate(360deg); }
+}
+.spin-slow {
+  animation: spinSlow 60s linear infinite;
+}
+
+/* V4 "查看解读"按钮持续呼吸金光 */
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 8px rgba(212, 175, 55, 0.15); }
+  50% { box-shadow: 0 0 22px rgba(212, 175, 55, 0.45); }
+}
+.pulse-glow {
+  animation: pulseGlow 2.4s ease-in-out infinite;
+}
+
+/* 首页标题金光呼吸 */
+@keyframes titleGlow {
+  0%, 100% { text-shadow: 0 0 6px rgba(212, 175, 55, 0.25); }
+  50% { text-shadow: 0 0 20px rgba(212, 175, 55, 0.6); }
+}
+.title-glow {
+  animation: titleGlow 3.6s ease-in-out infinite;
+}
+
+/* 金色尘埃上升 */
+@keyframes rise {
+  0% { transform: translateY(0); opacity: 0; }
+  12% { opacity: 0.55; }
+  85% { opacity: 0.3; }
+  100% { transform: translateY(-105vh); opacity: 0; }
+}
+
+/* 主视觉牌光晕 */
+.hero-halo {
+  background: radial-gradient(circle, rgba(212,175,55,0.30) 0%, rgba(212,175,55,0.10) 45%, transparent 70%);
+  animation: haloPulse 4s ease-in-out infinite;
+}
+@keyframes haloPulse {
+  0%, 100% { opacity: 0.7; transform: scale(0.95); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
+/* 星环反向缓转 */
+.spin-slow-rev {
+  animation: spinSlowRev 24s linear infinite;
+}
+@keyframes spinSlowRev {
+  to { transform: rotate(-360deg); }
+}

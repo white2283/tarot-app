@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="星轨塔罗——在线塔罗占卜应用:多牌阵抽牌、AI 深度解读、占星天象与本命盘,附塔罗知识库。" />
+  <meta name="theme-color" content="#0b0616" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="星轨塔罗" />
+  <meta property="og:description" content="塔罗占卜 · AI 解读 · 占星天象 · 塔罗知识库" />
+  <meta property="og:locale" content="zh_CN" />
+  <meta name="twitter:card" content="summary" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <title>星轨塔罗</title>
+  <script>
+    // framer-motion(motion-dom)在模块顶层裸调用 queueMicrotask(需要 Chrome 71+/Safari 12.1+/iOS 12.2+)。
+    // 更旧的内核会在模块求值时 ReferenceError 导致整包崩溃 → 深色背景无字。此经典脚本先行垫上 polyfill。
+    if (typeof window.queueMicrotask !== "function") {
+      window.queueMicrotask = function (cb) { Promise.resolve().then(cb); };
+    }
+  </script>
+</head>
+<body>
+  <div id="root">
+    <!-- React 首次提交会清空并替换此容器,正常用户看不到这段;JS 一旦失败,兜底文字与错误就留在屏上 -->
+    <div style="color:#cbb26a;text-align:center;padding:38vh 24px 0;font-family:serif">
+      <div>✦ 星轨塔罗加载中 ✦</div>
+      <div style="font-size:12px;opacity:.55;margin-top:14px">若长时间停留在此页,请换用系统浏览器或最新版 Chrome 打开</div>
+      <div id="boot-error" style="font-size:12px;color:#c66;margin-top:10px;word-break:break-all"></div>
+    </div>
+  </div>
+  <script>
+    window.addEventListener("error", function (e) {
+      var el = document.getElementById("boot-error");
+      if (!el) return;
+      var what = e.message || (e.target && (e.target.src || e.target.href) ? (e.target.src || e.target.href) + " 加载失败" : "") || "未知";
+      el.textContent = "启动错误: " + what;
+    }, true);
+  </script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+</html>

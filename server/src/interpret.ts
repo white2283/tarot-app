@@ -33,6 +33,7 @@ export function registerInterpret(app: FastifyInstance, db: DatabaseSync, aiCall
       return { text, cached: false };
     } catch (err) {
       req.log.error(err);
+      console.error("[interpret] AI 调用失败:", err);
       return reply.code(502).send({ fallback: true });
     }
   });

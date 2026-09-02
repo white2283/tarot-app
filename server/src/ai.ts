@@ -63,7 +63,9 @@ export async function callAi(prompt: string): Promise<string> {
   const maxTokensRaw = Number(process.env.AI_MAX_TOKENS ?? 8192);
   const maxTokens = Number.isFinite(maxTokensRaw) && maxTokensRaw > 0 ? Math.floor(maxTokensRaw) : 8192;
   // 温度可选:默认不传(OpenAI 兼容端点默认 1;某些推理模型只接受 1)。需要时设 AI_TEMPERATURE=0.8
-  const tempRaw = Number(process.env.AI_TEMPERATURE ?? "");
+  // 注意:Number("") === 0,必须判空,否则未设置时会误发 temperature:0
+  const tempStr = process.env.AI_TEMPERATURE?.trim();
+  const tempRaw = tempStr === undefined || tempStr === "" ? NaN : Number(tempStr);
   const temp = Number.isFinite(tempRaw) && tempRaw >= 0 && tempRaw <= 2 ? tempRaw : undefined;
   if (!base || !key) throw new Error("AI 未配置");
 
@@ -91,7 +93,11 @@ export async function callAi(prompt: string): Promise<string> {
       }
       // 429(过载/限流)与 5xx 可重试,其余错误直接抛出
       lastErr = new Error(`AI HTTP ${res.status}`);
-      if (res.status !== 429 && res.status < 500) throw lastErr;
+      if (res.status !== 429 && res.status < 500) {
+        const bodyText = await res.text().catch(() => "");
+        console.error("[ai] HTTP", res.status, "响应:", bodyText.slice(0, 600));
+        throw lastErr;
+      }
     } catch (err) {
       lastErr = err;
       if (err instanceof Error && /^AI HTTP (?!429|5\d\d)/.test(err.message)) throw err;

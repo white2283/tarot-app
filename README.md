@@ -36,7 +36,7 @@ npm run dev
 - 前端(Vite 开发服务器):http://localhost:7100(`/api` 自动代理到后端)
 - 后端(Fastify):http://localhost:8787
 
-不带 `AI_API_KEY` 也能跑:塔罗用内置规则解读、本命盘用模板解读;填入 [Moonshot](https://platform.moonshot.cn) 的 key 即开启 AI 深度解读(`AI_MODEL` 支持 moonshot-v1-128k 等)。
+不带 `AI_API_KEY` 也能跑:塔罗用内置规则解读、本命盘用模板解读;填入 [Moonshot](https://platform.moonshot.cn) 的 key 即开启 AI 深度解读(`AI_MODEL` 支持 kimi-k2.7-code-highspeed 等)。
 
 ### 🤖 接入任意 OpenAI 兼容模型(不限于 Moonshot)
 
